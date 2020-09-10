@@ -1,0 +1,80 @@
+html{
+  /* background-color: rgb(128, 206, 255); */
+  /* background-color: rgb(240, 240, 240); */
+  background-color: white;
+  font-family: helvetica;
+  font-size: 150%;
+  /* background-image: linear-gradient(rgb(235, 113, 52), rgb(130, 176, 161)); */
+
+}
+
+body{
+  margin-top: 1%;
+  margin-left: 1%;
+  /* background-color: rgba(153, 204, 255,.2); */
+}
+
+.name{
+  display: inline-block;
+  margin: 10%;
+  margin-right: 30%;
+  cursor: none;
+  color: rgb(128, 206, 255);
+  /* background-image: linear-gradient(black, rgb(130, 176, 161)); */
+  border: 20px solid;
+  padding: 2em;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  max-width: 260px;
+  /* box-shadow: 0px 0px 150px rgb(153, 153, 153); */
+}
+
+.language{
+  margin-left: 40%;
+  color: black;
+  display: inline-block;
+}
+
+.language-links{
+  display: inline-block;
+  position: static;
+  margin-right: 3em;
+  margin-bottom: 1em;
+  padding: .5em;
+  border: 2px solid;
+  text-decoration: none;
+  color: black;
+  /* background-color: rgba(240, 240, 240, 0.5); */
+  transition: 0.2s ease-in-out;
+}
+
+.language-links:hover{
+  color: grey;
+  border: 3px solid;
+  transition: 0.2s ease-in-out;
+}
+
+.index-image{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.home-button{
+  display: inline-block;
+  margin: 2%;
+  margin-right: 30%;
+  color: rgb(128, 206, 255);
+  background-color: black;
+  /* background-image: linear-gradient(rgb(235, 113, 52), rgb(130, 176, 161)); */
+  border: 10px solid;
+  padding: 1em;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+/* #grad1 {
+  height: 50px;
+  background-color: rgb(130, 176, 161); /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(rgb(235, 113, 52), rgb(130, 176, 161)); /* Standard syntax (must be last) */ */
+/* } */
